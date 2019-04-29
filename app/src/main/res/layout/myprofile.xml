@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/linear"
+
+
+        >
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+          android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+android:id="@+id/profile"
+            android:background="@drawable/profile"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+           android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+
+            />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myRecycler"
+        android:layout_below="@+id/linear"
+
+        ></android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/feedback"
+        app:maxImageSize="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="50dp"
+        android:id="@+id/send"
+        />
+
+</RelativeLayout>

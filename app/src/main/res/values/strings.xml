@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="login_preference">com.example.samik.sharedpreferences_login_preference</string>
+
+    <string name="login_status">com.example.samik.sharedpreferences_login_status</string>
+
+    <string name="login_user">com.example.samik.sharedpreferences_login_user</string>
+    <string name="login_name">com.example.samik.sharedpreferences_login_name</string>
+    <string name="login_info">com.example.samik.sharedpreferences_login_info</string>
+    <string name="login_imageurl">com.example.samik.sharedpreferences_login_imageurl</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#1c2541"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titles"
+        android:id="@+id/titles"
+        android:layout_margin="20dp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_below="@+id/titles"
+android:background="@drawable/login_background"
+    android:layout_margin="30dp"
+
+    android:layout_height="400dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter Username"
+        android:textColorHint="#1c2541"
+        android:id="@+id/loginName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:id="@+id/loginPass"
+        android:inputType="textPassword"
+        android:textColorHint="#1c2541"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter password"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:background="@drawable/button_background"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:text="login"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Register ?"
+        android:background="@android:color/transparent"
+
+        android:id="@+id/gotoRegister"
+        />
+</LinearLayout>
+
+
+</RelativeLayout>
